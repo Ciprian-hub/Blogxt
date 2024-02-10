@@ -19,5 +19,5 @@
 import {useRoute} from "vue-router";
 
 const route = useRoute()
-const post = await useNuxtApp().$apiFetch(`/api/posts/${route.params.id}`)
+const post = await useNuxtApp().$apiFetch(`api/posts/${route.params.id}`)
 </script>

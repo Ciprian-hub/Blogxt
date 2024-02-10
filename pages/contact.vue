@@ -1,6 +1,6 @@
 <template>
   <Title>Contact | {{title}}</Title>
-  <div>About</div>
+  <div>Contact</div>
 </template>
 
 <script setup>

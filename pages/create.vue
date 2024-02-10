@@ -53,7 +53,7 @@ const errors = ref([])
 async function createPost() {
   loading.value = true
   try {
-    const post = await useNuxtApp().$apiFetch(`/api/post`, {
+    const post = await useNuxtApp().$apiFetch(`post`, {
       method: 'POST',
       body: {
         title: title.value,
